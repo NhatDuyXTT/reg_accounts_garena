@@ -2,13 +2,11 @@ import requests
 import time
 
 def ngl():
-    print("==========================")
-    print("  Tool By https://t.me/sharesrctool")
-    print("==========================")
+    print("Tools viết bởi Nhật Duy nhầm mục đích học tập")
 
-    username = input("Nhập Username (không có @): ")
+    username = input("Nhập tên sau /(VD:https://ngl.link/abcd (abcd)) v ")
     message = input("Nhập Tin Nhắn Spam: ")
-    count = 25
+    count = 100
 
     print("==========================")
     print("Đang Tiến Hành Spam...")
